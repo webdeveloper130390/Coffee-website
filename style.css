@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Playfair Display', sans-serif;                                  
+}
+ul,ol
+{
+    padding-left: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+/* HERO */
+.hero{
+}
+.background__hero{
+    padding-bottom: 163px;
+    background-image: url(../dars-4/img/hbimage.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.shopping__title{
+    color: var(--coffee, #603809);
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.shopping__des{
+    color: #707070;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+.shopping__item{
+    margin: 20px;
+}
+.shopping__box{
+    width: 280px;
+    height: 120px;
+    background: #FFF9F1;
+}
+.shopping__box h4,p,h6{
+    text-align: center;
+}
+.shopping__list{
+    display: flex;
+    justify-content: center;
+}
